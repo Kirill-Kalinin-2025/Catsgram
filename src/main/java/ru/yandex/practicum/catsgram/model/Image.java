@@ -4,8 +4,8 @@ import lombok.Data;
 
 @Data
 public class Image {
-    Long id;
-    long postId;
-    String originalFilename;
-    String filePath;
+    private Long id;
+    private Long postId;
+    private String originalFileName;
+    private String filePath;
 }

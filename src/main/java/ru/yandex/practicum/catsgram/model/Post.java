@@ -6,7 +6,7 @@ import lombok.Data;
 @Data
 public class Post {
     Long id;
-    long authorId;
+    Long authorId;
     String description;
     Instant postDate;
 }
